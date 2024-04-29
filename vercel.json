@@ -1,13 +1,13 @@
 {
-    "functions": {
-      "newscluster/wsgi.py": {
-        "runtime": "python3.9"
-      }
-    },
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "newscluster/wsgi.py"
-      }
-    ]
-  }
+  "functions": {
+    "newscluster/wsgi.py": {
+      "runtime": "python@3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "newscluster/wsgi.py"
+    }
+  ]
+}
